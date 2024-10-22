@@ -1,17 +1,20 @@
 # Exercice final: Freshly Restaurant
 
 Vous devez intégrer en responsive mobile first, les pages suivantes, par ordre de priorité :
+
 - a minima : la page d'accueil et la page des menus
 - en option : la page de contact et la page about
 
 Le contenu sur desktop a une largeur maximum de 1400px.
 Points de rupture :
+
 - tablette : 780px
 - desktop : 1100px
 
 ### Polices
 
 Google Fonts
+
 - Athiti : par défaut (graisse : 500)
 - Merienda : pour les titres
 
@@ -40,31 +43,35 @@ Rouge : #950000
 
 - Les ombres sur les boutons "see more" ont les valeurs : box-shadow: 2px 2px 2px silver;
 
-****************
- PAGE D'ACCUEIL
-****************
+---
 
+PAGE D'ACCUEIL
 
-Navigation
------------
+---
+
+## Navigation
+
 La rubrique de la page courante est différenciée par le fond marron.
 Au survol des rubriques, celles-ci passent progressivement à la couleur blanche pour le texte et rouge pour le fond.
 
-Images des menus
-----------------
+## Images des menus
+
 Au survol des images des menus, celles-ci s'opacifient progressivement (couleur rgba(76,67,67,.9) ) et affichent le prix du menu (cf. capture d'écran)
 
 Au survol des éléments "See more" le fond passe progressivement à la couleur rouge.
 
-************
- PAGE MENUS
-************
+---
+
+PAGE MENUS
+
+---
 
 Au survol des images des plats, faire un léger effet de zoom et afficher le nom du plat (cf. capture d'écran).
 
+---
 
-**************
- PAGE CONTACT
-**************
+PAGE CONTACT
+
+---
 
 La carte est affichée avec open street map.

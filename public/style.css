@@ -1,0 +1,153 @@
+main {
+	padding: 15px;
+	margin: 0 auto;
+}
+main img {
+	width: 100%;
+}
+
+.selectSlider {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 65px;
+}
+.circle {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	margin: 10px;
+	background-color: grey;
+}
+.circleActif {
+	background-color: #950000;
+}
+
+h2 {
+	font-family: "Merienda", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	font-size: 30px;
+}
+h3 {
+	font-family: "Merienda", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	font-size: 25px;
+	margin: 15px;
+}
+
+h4 {
+	font-family: "Merienda", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	text-align: center;
+	font-size: 20px;
+	margin: 0;
+	padding: 20px;
+}
+
+.welcome {
+	margin-bottom: 30px;
+}
+
+.specialMenu article {
+	background-color: #ebe3db;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 25px;
+}
+.imgmenu {
+	position: relative; /* Important pour positionner le contenu par dessus, relatif à l'élément */
+	display: inline-block; /* Prendra la forme de son contenu */
+}
+.imgmenu img {
+	padding: 0;
+	margin: 0;
+	transition: all 0.5s ease;
+	vertical-align: middle; /* Ou display: block, pour enlever l'espace blanc */
+}
+.imgmenu img:hover {
+	opacity: 0.5;
+}
+.infoMenuInterieur {
+	width: 80%;
+	height: 80%;
+	border: 5px solid white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 50px;
+	padding: 10%;
+}
+.infoMenu {
+	background-color: rgba(76, 67, 67, 0.9);
+
+	/* Positionnement du contenu hover */
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+	/* Effets de transition */
+	opacity: 0; /* On cache l'élément via son opacité */
+	transition: opacity 0.25s ease-in-out; /* Effet de transition sur le hover */
+
+	/* Style du contenu hover */
+	color: white;
+	padding: 30px;
+
+	/* Centrer le contenu */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.infoMenu:hover {
+	opacity: 1;
+}
+
+.specialMenu ul {
+	padding: 0;
+	margin-top: 0;
+}
+.specialMenu li {
+	list-style-type: none;
+	padding: 10px;
+	border-bottom: 1px dashed black;
+}
+.specialMenu li::before {
+	content: "\f005";
+	font-size: 13px;
+	margin-right: 10px;
+	font-family: FontAwesome;
+	color: #950000;
+}
+
+.specialMenu button {
+	padding: 10px;
+	border: none;
+	background-color: #4c4343;
+	color: white;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 45px;
+	font-size: 18px;
+	display: flex;
+	justify-content: center;
+	box-shadow: 2px 2px 2px silver;
+}
+.specialMenu button img {
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+@media screen and (min-width: 1100px) {
+	main {
+		width: 1200px;
+	}
+}
