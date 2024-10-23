@@ -1,0 +1,64 @@
+main {
+	text-align: center;
+}
+
+span {
+	color: #950000;
+	text-decoration: underline dotted;
+}
+
+form {
+	display: grid;
+	grid-template-columns: 2% 45% 2% 45%;
+	justify-content: center;
+	text-align: left;
+	align-items: flex-start;
+
+	background-color: #ebe3db;
+	padding: 25px 10px;
+	margin-bottom: 30px;
+}
+form h3 {
+	text-align: left;
+	padding: 0 0 10px 0;
+	margin: 0;
+}
+form div {
+	display: flex;
+	flex-direction: column;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+form p {
+	text-align: center;
+	margin: 0;
+}
+
+form div:last-of-type {
+	margin-top: 20px;
+	grid-column: 3 span;
+}
+
+form .button {
+	grid-column: 4 span;
+	width: 40%;
+	justify-self: center;
+	background-color: #4c4343;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: "Athiti", sans-serif;
+	font-style: normal;
+	border: none;
+}
+
+@media screen and (min-width: 1200px) {
+	form {
+		width: 70%;
+		margin: 0 auto;
+	}
+	iframe {
+		margin-bottom: 20px;
+	}
+}

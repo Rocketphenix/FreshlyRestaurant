@@ -1,0 +1,49 @@
+main {
+	text-align: left;
+}
+
+.video {
+	text-align: center;
+}
+iframe {
+	width: 80%;
+	height: 300px;
+	margin-bottom: 30px;
+}
+
+.photoResto {
+	padding: 20px 10px;
+	background-color: #ebe3db;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.photoResto p {
+	margin: 0;
+	margin-bottom: 30px;
+}
+.photoResto img {
+	box-shadow: 3px 3px 8px rgba(76, 67, 67, 0.5);
+}
+
+@media screen and (min-width: 780px) {
+	iframe {
+		height: 340px;
+	}
+
+	.photoResto {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.photoResto div {
+		width: 48.5%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	iframe {
+		width: 65%;
+		height: 440px;
+		margin: 10px;
+	}
+}

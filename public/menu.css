@@ -1,0 +1,78 @@
+.filter {
+	width: 425px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	text-transform: uppercase;
+}
+.filter div {
+	padding: 5px 20px;
+	background-color: #ebe3db;
+	font-weight: bold;
+	font-size: 16px;
+
+	transition: all 0.5s ease;
+}
+.filter div:hover {
+	background-color: red;
+	color: white;
+}
+
+.imgMenu > img {
+	box-shadow: 3px 3px 8px rgba(76, 67, 67, 0.5);
+}
+.menuPlat {
+	background-color: #ebe3db;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 30px 10px 20px 10px;
+	width: 100%;
+
+	display: grid;
+	justify-content: center;
+	grid-template-columns: 49% 49%;
+	gap: 10px;
+}
+.menuPlat:first-of-type .imgMenu {
+	margin-bottom: 30px;
+}
+.menuPlat .imgMenu:last-of-type {
+	max-width: 49%;
+	grid-column: 2 span;
+	justify-self: center;
+}
+.menuPlat:last-of-type {
+	margin-bottom: 0;
+}
+
+.infoMenuInterieur img {
+	height: 50%;
+}
+.infoMenuInterieur {
+	font-size: 20px;
+	font-family: "Merienda", cursive;
+	font-optical-sizing: auto;
+	font-style: normal;
+	font-size: 20px;
+}
+.infoMenuInterieur p {
+	margin: 10px;
+}
+
+@media screen and (min-width: 780px) {
+	.menuPlat {
+		grid-template-columns: 32% 32% 32%;
+	}
+	.menuPlat .imgMenu:last-of-type {
+		max-width: 100%;
+		grid-column: 1 span;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	.menuPlat:last-of-type {
+		margin-bottom: 20px;
+	}
+}

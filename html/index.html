@@ -26,9 +26,9 @@
 			</h1>
 			<ul>
 				<li><a href="#" class="pageActive">Home</a></li>
-				<li><a href="">About</a></li>
-				<li><a href="">Menu</a></li>
-				<li><a href="">Contact</a></li>
+				<li><a href="./about.html">About</a></li>
+				<li><a href="./menu.html">Menu</a></li>
+				<li><a href="./contact.html">Contact</a></li>
 			</ul>
 		</header>
 
@@ -46,22 +46,24 @@
 			</h2>
 			<section class="welcome">
 				<img src="../exo/ressources/images/location.jpg" alt="Restaurant.mp3" />
-				<p>
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident ratione reiciendis voluptatum
-					asperiores inventore quos qui dolores dolorem nemo cumque temporibus neque pariatur consectetur explicabo
-					soluta eveniet repudiandae laboriosam, veniam, odio veritatis impedit, illo commodi nesciunt? Totam quaerat
-					ipsa, et aliquam sint neque culpa corrupti, facilis molestias beatae laudantium. Maiores, perspiciatis in.
-					Iure ex distinctio enim vel, cumque tempora qui corporis impedit minus itaque sit. Placeat sunt accusamus ut
-					libero tempore saepe laboriosam magnam.
-				</p>
-				<p>
-					Exercitationem obcaecati placeat quasi alias reprehenderit nemo saepe dolorum sint, hic laboriosam optio ipsa
-					suscipit, iste, fuga voluptatibus! Non tenetur iusto aperiam perspiciatis accusantium, adipisci harum itaque
-					magni praesentium officiis, molestiae iste cum ipsam deserunt fugiat doloremque ipsum id. Aspernatur sint
-					dolorem obcaecati ad, sunt ullam. Excepturi libero perspiciatis sed minima deleniti nemo mollitia praesentium
-					doloremque numquam quo voluptatum ut vel, facilis doloribus harum quaerat eveniet placeat aliquam officia
-					architecto laboriosam! Error, quas magni. Esse.
-				</p>
+				<div>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas provident ratione reiciendis voluptatum
+						asperiores inventore quos qui dolores dolorem nemo cumque temporibus neque pariatur consectetur explicabo
+						soluta eveniet repudiandae laboriosam, veniam, odio veritatis impedit, illo commodi nesciunt? Totam quaerat
+						ipsa, et aliquam sint neque culpa corrupti, facilis molestias beatae laudantium. Maiores, perspiciatis in.
+						Iure ex distinctio enim vel, cumque tempora qui corporis impedit minus itaque sit. Placeat sunt accusamus ut
+						libero tempore saepe laboriosam magnam.
+					</p>
+					<p>
+						Exercitationem obcaecati placeat quasi alias reprehenderit nemo saepe dolorum sint, hic laboriosam optio
+						ipsa suscipit, iste, fuga voluptatibus! Non tenetur iusto aperiam perspiciatis accusantium, adipisci harum
+						itaque magni praesentium officiis, molestiae iste cum ipsam deserunt fugiat doloremque ipsum id. Aspernatur
+						sint dolorem obcaecati ad, sunt ullam. Excepturi libero perspiciatis sed minima deleniti nemo mollitia
+						praesentium doloremque numquam quo voluptatum ut vel, facilis doloribus harum quaerat eveniet placeat
+						aliquam officia architecto laboriosam! Error, quas magni. Esse.
+					</p>
+				</div>
 			</section>
 
 			<h3>
@@ -74,12 +76,12 @@
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i> Meat menu
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i>
 					</h4>
-					<div class="imgmenu">
+					<div class="imgMenu">
 						<img src="../exo/ressources/images/meat-menu.jpg" alt="Meat menu" />
 						<div class="infoMenu">
 							<div class="infoMenuInterieur">
-								17 $ <br />
-								soft drinks and desert included + taxes
+								<p class="prix">17 $</p>
+								<p class="infoText">soft drinks and desert included + taxes</p>
 							</div>
 						</div>
 					</div>
@@ -97,7 +99,15 @@
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i> Fish menu
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i>
 					</h4>
-					<img src="../exo/ressources/images/fish-menu.jpg" alt="Fish menu" />
+					<div class="imgMenu">
+						<img src="../exo/ressources/images/fish-menu.jpg" alt="Fish menu" />
+						<div class="infoMenu">
+							<div class="infoMenuInterieur">
+								<p class="prix">19$</p>
+								<p class="infoText">soft drinks and desert included + taxes</p>
+							</div>
+						</div>
+					</div>
 					<ul>
 						<li>Lorme ipsum dolor sit.</li>
 						<li>Dotorem est fuga possimus.</li>
@@ -112,7 +122,15 @@
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i> Vegetarian menu
 						<i class="fa-solid fa-star fa-2xs" style="color: #950000"></i>
 					</h4>
-					<img src="../exo/ressources/images/vegetarian-menu.jpg" alt="Vegetarian menu" />
+					<div class="imgMenu">
+						<img src="../exo/ressources/images/vegetarian-menu.jpg" alt="Vegetarian menu" />
+						<div class="infoMenu">
+							<div class="infoMenuInterieur">
+								<p class="prix">18$</p>
+								<p class="infoText">soft drinks and desert included + taxes</p>
+							</div>
+						</div>
+					</div>
 					<ul>
 						<li>Lorme ipsum dolor sit.</li>
 						<li>Dotorem est fuga possimus.</li>
@@ -126,47 +144,51 @@
 		</main>
 		<footer>
 			<div class="siteFooter">
-				<div>
-					<h3>Opening hours</h3>
-					<div class="borderFooter"></div>
-					<ul>
-						<li>Monday: Closed</li>
-						<li>Tue-Wed: 9am - 10pm</li>
-						<li>Thu-Fri: 9am - 10pm</li>
-						<li>Sat-Sun: 5pm - 10pm</li>
-					</ul>
-				</div>
-				<div>
-					<h3>Contact</h3>
-					<div class="borderFooter"></div>
-					<ul>
-						<li>13 Christopher Street</li>
-						<li>New York,</li>
-						<li>NY 10014-3543</li>
-						<li class="decalageFooter">+01 2000 800 9999</li>
-					</ul>
-				</div>
-				<div>
-					<h3>Social network</h3>
-					<div class="borderFooter"></div>
+				<div class="contentFooter">
 					<div>
-						<i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
-						<i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
-						<i class="fa-brands fa-pinterest-p fa-xl" style="color: #ffffff"></i>
+						<h3>Opening hours</h3>
+						<div class="borderFooter"></div>
+						<ul>
+							<li>Monday: Closed</li>
+							<li>Tue-Wed: 9am - 10pm</li>
+							<li>Thu-Fri: 9am - 10pm</li>
+							<li>Sat-Sun: 5pm - 10pm</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Contact</h3>
+						<div class="borderFooter"></div>
+						<ul>
+							<li>13 Christopher Street</li>
+							<li>New York,</li>
+							<li>NY 10014-3543</li>
+							<li class="decalageFooter">+01 2000 800 9999</li>
+						</ul>
+					</div>
+					<div>
+						<h3>Social network</h3>
+						<div class="borderFooter"></div>
+						<div>
+							<i class="fa-brands fa-facebook-f fa-lg" style="color: #ffffff"></i>
+							<i class="fa-brands fa-instagram fa-lg" style="color: #ffffff"></i>
+							<i class="fa-brands fa-pinterest-p fa-xl" style="color: #ffffff"></i>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="schoolFooter">
-				<img src="../exo/ressources/images/logo-3wa.png" alt="Propriété de la 3W Academy" />
-				<p>
-					Cet exercice de <a href="https://3wacademy.fr">3W Academy</a> est mis à disposition
-					<a href="#"
-						>pour l'usage personnel des étudiants. Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale -
-						Pas de Modification - International</a
-					>. Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de
-					<a href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les maquettes ont été réalisées par
-					<a href="#">Catherine Denos</a>.
-				</p>
+				<div class="contentFooter">
+					<img src="../exo/ressources/images/logo-3wa.png" alt="Propriété de la 3W Academy" />
+					<p>
+						Cet exercice de <a href="https://3wacademy.fr">3W Academy</a> est mis à disposition
+						<a href="#"
+							>pour l'usage personnel des étudiants. Pas de Rediffusion - Attribution - Pas d'Utilisation Commerciale -
+							Pas de Modification - International</a
+						>. Les autorisations au-delà du champ de cette licence peuvent être obtenues auprès de
+						<a href="mailto:contact@3wa.fr">contact@3wa.fr</a>. Les maquettes ont été réalisées par
+						<a href="#">Catherine Denos</a>.
+					</p>
+				</div>
 			</div>
 		</footer>
 	</body>
